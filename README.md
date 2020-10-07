@@ -1,3 +1,3 @@
-# cs367f20-lab2
-## Group Members
+# Group Members
 - GLcs367
+- daveWinzig
