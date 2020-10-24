@@ -4,12 +4,13 @@ import "fmt"
 
 func main() {
 
-        const blastoff = 10
+        const countdown int = 10
+        var count int = countdown
 
-        for i := blastoff; i >= 0; i-- {
-                fmt.Printf("%d\n", i)
-                if i == 0 {
-                        fmt.Printf("BLAST OFF.\n")
-                }
-        } 
+        for count >= 0 {
+
+                fmt.Println(count)
+                count -= 1
+        }
+        fmt.Println("BLAST OFF")
 }

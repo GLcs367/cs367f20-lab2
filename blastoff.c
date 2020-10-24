@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void){
 
-  const int blastoff = 10;
+	const int countdown = 10;
+	int count = countdown;
 
-  int loopnum = blastoff;
+	while(count >= 0){
 
-  while (loopnum >= 0) {
-    printf("%d\n", loopnum);
-    loopnum--;
-    if (loopnum == -1) {
-      printf("BLAST OFF.\n");
-    }
-  }
-  return 0;
+		printf("%d\n", count);
+		--count;
+	}
+	printf("BLAST OFF\n");
+
+	return 0;	
 }
